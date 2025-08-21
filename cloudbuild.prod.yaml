@@ -31,8 +31,9 @@ substitutions:
     _FUNCTION_PROJECT : prod-469514
     _FUNCTION_NAME    : my-nodejs-app
     _FUNCTION_REGION  : europe-west1
-    _FUNCTION_RUNTIME : nodejs14
+    _FUNCTION_RUNTIME : nodejs22
     _ENTRY_POINT      : helloWorld
+
 
 
 
