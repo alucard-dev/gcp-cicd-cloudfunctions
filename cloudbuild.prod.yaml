@@ -28,9 +28,10 @@ options:
   logging: CLOUD_LOGGING_ONLY
 
 substitutions:
-    _FUNCTION_PROJECT : PROD
+    _FUNCTION_PROJECT : prod-469514
     _FUNCTION_NAME    : my-nodejs-app
     _FUNCTION_REGION  : europe-north2
     _FUNCTION_RUNTIME : nodejs22
     _ENTRY_POINT      : helloWorld
+
 
