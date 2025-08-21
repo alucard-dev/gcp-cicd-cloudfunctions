@@ -28,7 +28,8 @@ substitutions:
     _FUNCTION_PROJECT : STAG
     _FUNCTION_NAME    : my-nodejs-app
     _FUNCTION_REGION  : europe-north2
-    _FUNCTION_RUNTIME : nodejs14
+    _FUNCTION_RUNTIME : nodejs22
     _ENTRY_POINT      : helloWorld
+
 
 
