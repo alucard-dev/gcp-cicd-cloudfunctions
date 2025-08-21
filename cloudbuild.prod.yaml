@@ -22,10 +22,13 @@ steps:
   - --runtime=$_FUNCTION_RUNTIME
   - --project=$_FUNCTION_PROJECT
   - --entry-point=$_ENTRY_POINT
+  - --allow-unauthenticated
   id: DEPLOY
 
 options:
   logging: CLOUD_LOGGING_ONLY
+
+
 
 substitutions:
     _FUNCTION_PROJECT : prod-469514
@@ -33,6 +36,7 @@ substitutions:
     _FUNCTION_REGION  : europe-west1
     _FUNCTION_RUNTIME : nodejs22
     _ENTRY_POINT      : helloWorld
+
 
 
 
