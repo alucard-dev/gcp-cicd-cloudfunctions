@@ -22,14 +22,19 @@ steps:
   - --runtime=$_FUNCTION_RUNTIME
   - --project=$_FUNCTION_PROJECT
   - --entry-point=$_ENTRY_POINT
+  - --allow-unauthenticated
   id: DEPLOY
 
+options:
+  logging: CLOUD_LOGGING_ONLY
+
 substitutions:
-    _FUNCTION_PROJECT : STAG
+    _FUNCTION_PROJECT : stag-469514
     _FUNCTION_NAME    : my-nodejs-app
-    _FUNCTION_REGION  : europe-north2
+    _FUNCTION_REGION  : europe-west1
     _FUNCTION_RUNTIME : nodejs22
     _ENTRY_POINT      : helloWorld
+
 
 
 
